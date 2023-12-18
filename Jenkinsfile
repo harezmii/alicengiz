@@ -8,5 +8,12 @@ pipeline {
       }
     }
 
+    stage('aleyküm selam') {
+      agent any
+      steps {
+        echo 'aleyküm selam ali kerim'
+      }
+    }
+
   }
 }
